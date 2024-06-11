@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		1943BC202C1908AA00E75C27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943BC1F2C1908AA00E75C27 /* AppDelegate.swift */; };
 		1943BC222C1908AA00E75C27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943BC212C1908AA00E75C27 /* SceneDelegate.swift */; };
-		1943BC242C1908AA00E75C27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943BC232C1908AA00E75C27 /* ViewController.swift */; };
 		1943BC272C1908AA00E75C27 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1943BC262C1908AA00E75C27 /* Base */; };
 		1943BC292C1908AB00E75C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1943BC282C1908AB00E75C27 /* Assets.xcassets */; };
 		1943BC2C2C1908AB00E75C27 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1943BC2B2C1908AB00E75C27 /* Base */; };
 		1943BC372C1908AB00E75C27 /* CardWorkoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943BC362C1908AB00E75C27 /* CardWorkoutTests.swift */; };
 		1943BC412C1908AB00E75C27 /* CardWorkoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943BC402C1908AB00E75C27 /* CardWorkoutUITests.swift */; };
 		1943BC432C1908AB00E75C27 /* CardWorkoutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943BC422C1908AB00E75C27 /* CardWorkoutUITestsLaunchTests.swift */; };
+		1943BC502C1908F200E75C27 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943BC4F2C1908F200E75C27 /* CardSelectionVC.swift */; };
+		1943BC522C19160200E75C27 /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943BC512C19160200E75C27 /* RulesVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 		1943BC1C2C1908AA00E75C27 /* CardWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1943BC1F2C1908AA00E75C27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1943BC212C1908AA00E75C27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1943BC232C1908AA00E75C27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1943BC262C1908AA00E75C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1943BC282C1908AB00E75C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1943BC2B2C1908AB00E75C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		1943BC3C2C1908AB00E75C27 /* CardWorkoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardWorkoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1943BC402C1908AB00E75C27 /* CardWorkoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardWorkoutUITests.swift; sourceTree = "<group>"; };
 		1943BC422C1908AB00E75C27 /* CardWorkoutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardWorkoutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1943BC4F2C1908F200E75C27 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		1943BC512C19160200E75C27 /* RulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +103,12 @@
 			children = (
 				1943BC1F2C1908AA00E75C27 /* AppDelegate.swift */,
 				1943BC212C1908AA00E75C27 /* SceneDelegate.swift */,
-				1943BC232C1908AA00E75C27 /* ViewController.swift */,
 				1943BC252C1908AA00E75C27 /* Main.storyboard */,
 				1943BC282C1908AB00E75C27 /* Assets.xcassets */,
 				1943BC2A2C1908AB00E75C27 /* LaunchScreen.storyboard */,
 				1943BC2D2C1908AB00E75C27 /* Info.plist */,
+				1943BC4F2C1908F200E75C27 /* CardSelectionVC.swift */,
+				1943BC512C19160200E75C27 /* RulesVC.swift */,
 			);
 			path = CardWorkout;
 			sourceTree = "<group>";
@@ -258,9 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1943BC242C1908AA00E75C27 /* ViewController.swift in Sources */,
+				1943BC522C19160200E75C27 /* RulesVC.swift in Sources */,
 				1943BC202C1908AA00E75C27 /* AppDelegate.swift in Sources */,
 				1943BC222C1908AA00E75C27 /* SceneDelegate.swift in Sources */,
+				1943BC502C1908F200E75C27 /* CardSelectionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
