@@ -17,6 +17,7 @@
 		1943BC432C1908AB00E75C27 /* CardWorkoutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943BC422C1908AB00E75C27 /* CardWorkoutUITestsLaunchTests.swift */; };
 		1943BC502C1908F200E75C27 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943BC4F2C1908F200E75C27 /* CardSelectionVC.swift */; };
 		1943BC522C19160200E75C27 /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943BC512C19160200E75C27 /* RulesVC.swift */; };
+		1943BC542C191B8B00E75C27 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943BC532C191B8B00E75C27 /* Cards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1943BC422C1908AB00E75C27 /* CardWorkoutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardWorkoutUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1943BC4F2C1908F200E75C27 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
 		1943BC512C19160200E75C27 /* RulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
+		1943BC532C191B8B00E75C27 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				1943BC2D2C1908AB00E75C27 /* Info.plist */,
 				1943BC4F2C1908F200E75C27 /* CardSelectionVC.swift */,
 				1943BC512C19160200E75C27 /* RulesVC.swift */,
+				1943BC532C191B8B00E75C27 /* Cards.swift */,
 			);
 			path = CardWorkout;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1943BC542C191B8B00E75C27 /* Cards.swift in Sources */,
 				1943BC522C19160200E75C27 /* RulesVC.swift in Sources */,
 				1943BC202C1908AA00E75C27 /* AppDelegate.swift in Sources */,
 				1943BC222C1908AA00E75C27 /* SceneDelegate.swift in Sources */,
